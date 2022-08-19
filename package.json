@@ -1,6 +1,6 @@
 {
-    "name": "react-typescript-starter",
-    "homepage": "homepage",
+    "name": "blockpy-quiz-editor",
+    "homepage": "blockpy-quiz-editor",
     "version": "0.1.0",
     "private": true,
     "dependencies": {
