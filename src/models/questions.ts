@@ -38,8 +38,8 @@ export interface Feedback {
 
 export interface Question {
     body: string;
-    id: string;
-    title: string;
+    id?: string;
+    title?: string;
     type: string;
     points: number;
     answers?: string[] | { [key: string]: string[] };

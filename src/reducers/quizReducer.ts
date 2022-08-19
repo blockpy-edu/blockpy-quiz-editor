@@ -6,6 +6,8 @@ import {
 import { Question, QuizQuestionTypes } from "../models/questions";
 import { QuizInstructions } from "../models/quiz";
 
+import TEST_DATA from "../examples/final.json";
+
 export interface QuizApplication {
     quiz: QuizInstructions;
     deletedQuestions: Question[];
@@ -17,11 +19,7 @@ function loadLocalStorage(): Question[] {
 }
 
 export const DEFAULT_STATE: QuizApplication = {
-    quiz: {
-        questions: {},
-        settings: {},
-        pools: []
-    },
+    quiz: TEST_DATA as QuizInstructions,
     deletedQuestions: loadLocalStorage()
 };
 
@@ -33,9 +31,7 @@ export class QuizReducer extends ImmerReducer<QuizApplication> {
     addQuestion(id: string) {
         this.draftState.quiz.questions[id] = {
             body: "",
-            id: id,
             points: 1,
-            title: "NewQuestion",
             type: QuizQuestionTypes.multiple_choice_question
         };
     }
