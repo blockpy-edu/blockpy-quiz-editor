@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/blockpy-quiz-editor/static/css/main.39f589df.css",
+    "main.js": "/blockpy-quiz-editor/static/js/main.a208582f.js",
+    "static/js/787.302af6bf.chunk.js": "/blockpy-quiz-editor/static/js/787.302af6bf.chunk.js",
+    "index.html": "/blockpy-quiz-editor/index.html",
+    "main.39f589df.css.map": "/blockpy-quiz-editor/static/css/main.39f589df.css.map",
+    "main.a208582f.js.map": "/blockpy-quiz-editor/static/js/main.a208582f.js.map",
+    "787.302af6bf.chunk.js.map": "/blockpy-quiz-editor/static/js/787.302af6bf.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.39f589df.css",
+    "static/js/main.a208582f.js"
+  ]
+}
